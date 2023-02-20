@@ -19,6 +19,7 @@ git clone https://github.com/wieczorekapp/flaks-on-docker-kube
 ```
 cd flaks-on-docker-kube
 ```
+Rename env files, remove _ in filenames.
 
 ```
 docker compose -f docker-compose.prod.yml up -d --build
@@ -51,9 +52,6 @@ kubectl describe svc nginx
 Optional
 To convert docker-compose to Kubernetes
 
-```
-cd docker_compose
-```
 
 ```
 kompose -f docker-compose.prod convert
