@@ -49,10 +49,14 @@ To check ip addres
 kubectl describe svc nginx
 ```
 
-Optional
-To convert docker-compose to Kubernetes
-
+Optional to convert docker-compose to Kubernetes
 
 ```
 kompose -f docker-compose.prod convert
 ```
+
+### Possible improvements in the future
+- a better way to limit the number of requests(ngnix configuration to improve)
+- refactor flask code to separate model, controller and different views(now it's only fast prototype)
+- adding error handling(logging them to the database)
+- improve Kubernets configuration, learning about good practices and getting to know Kubernetes
