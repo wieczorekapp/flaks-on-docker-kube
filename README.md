@@ -1,4 +1,4 @@
-# flaks-on-docker-kube
+# flask-on-docker-kube
 Simple web application Flask + SQLAlchemy + Gunicorn + PostgreSQL + Nginx running on Docker(docker-compose) and local Kubernetes cluster.
 
 ## Getting Started
